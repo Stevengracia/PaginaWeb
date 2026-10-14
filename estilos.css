@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #acef03;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    cursor: pointer;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+.imagen {
+    padding: 30px;
+}
+
+.imagen img {
+    width: 220px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imagen img:hover {
+    transform: scale(1.05);
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+button {
+    background-color: #acef03;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8fcf00;
+}
+
+#mensaje {
+    font-weight: bold;
+    min-height: 25px;
+}
+
+#caja {
+    width: 300px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 80%;
+    max-width: 400px;
+    padding: 13px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+#resultado {
+    font-weight: bold;
+    color: #5c8f00;
+    min-height: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    #caja {
+        width: 80%;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web interactiva</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titulo">Página Web</h1>
+        <p>Actividad Práctica III</p>
+    </header>
+
+    <section class="imagen">
+        <img id="balon" src="Img/OIP.jpg" alt="Balón de fútbol">
+        <p>⚽ Haz doble clic en el balón</p>
+    </section>
+
+    <main>
+
+        <h2>Bienvenidos</h2>
+
+        <p id="texto">
+            Esta es mi página web creada con HTML, CSS y JavaScript.
+        </p>
+
+       
+        <button id="botonMensaje">
+            Mostrar mensaje
+        </button>
+
+       
+        <button id="botonColor">
+            Cambiar color
+        </button>
+
+        <p id="mensaje"></p>
+
+        
+        <div id="caja">
+            Pasa el mouse por aquí
+        </div>
+
+        
+        <h2>Formulario</h2>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Escribe tu nombre"
+                required
+            >
+
+            <input
+                type="email"
+                id="correo"
+                placeholder="Escribe tu correo"
+                required
+            >
+
+            <button type="submit">
+                Enviar formulario
+            </button>
+
+        </form>
+
+        <p id="resultado"></p>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Página web con HTML, CSS y JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
